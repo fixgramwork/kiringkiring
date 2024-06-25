@@ -85,19 +85,19 @@ void displaySchedule() {
   lcd.setCursor(0, 0);
   switch (RTC.getWeek()) {
     case 2: // MONDAY
-      lcd.print("MON: 국|수|사|과|영|프|전|체");
+      lcd.print("MON: 1|2|3|4|5|");
       break;
     case 3: // TUESDAY
-      lcd.print("TUE: 국|수|사|과|영|프|전|체");
+      lcd.print("TUE: 1|2|3|4|5|");
       break;
     case 4: // WEDNESDAY
-      lcd.print("WED: 국|수|사|과|영|프|전");
+      lcd.print("WED: 1|2|3|4|5|");
       break;
     case 5: // THURSDAY
-      lcd.print("THU: 국|수|사|과|영|프|전|체");
+      lcd.print("THU: 1|2|3|4|5|");
       break;
     case 6: // FRIDAY
-      lcd.print("FRI: 국|수|사|과|영|프|전|체");
+      lcd.print("FRI: 1|2|3|4|5|");
       break;
     case 7: // SATURDAY
     case 1: // SUNDAY
